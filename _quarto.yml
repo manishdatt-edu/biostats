@@ -39,7 +39,7 @@ format:
     theme: 
         light: cosmo
         dark: superhero
-    cover-image: images/logo_final_padding_square2.png
+    cover-image: images/logo_path_square.svg
     highlight-style: atom-one
     css: custom_css.css
 #  pdf:
