@@ -1,0 +1,48 @@
+project:
+  type: book
+  resources:
+    - images/**
+    - CNAME
+
+book:
+  sidebar:
+      logo: "images/logo_horizontal_transparent.png"
+  favicon: "images/logo_path_square.svg"
+  title: "Biostatistics"
+  search: false
+  site-url: https://biostats.bioinfo.guru/
+  author: "Manish Datt"
+#  date: "8/1/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - distributions.ipynb
+    - regression.ipynb
+    - P-value.ipynb
+#    - references.qmd
+  page-footer: 
+    left: "Copyright 2026, bioinfo.guru"
+    right:
+        - icon: facebook
+          href: www.facebook.com/profile.php?id=100078250833738
+        - icon: instagram
+          href: www.instagram.com/bioinfo.guru/
+        - icon: linkedin
+          href: www.linkedin.com/in/bioinfo-guru-68a8b7231/
+        - icon: twitter
+          href: www.twitter.com/bioinfo_guru
+
+#bibliography: references.bib
+  reader-mode: true
+
+format:
+  html:
+    theme: 
+        light: cosmo
+        dark: superhero
+    cover-image: images/logo_final_transparent.png
+    highlight-style: atom-one
+    css: custom_css.css
+#  pdf:
+#    documentclass: scrreprt
+

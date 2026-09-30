@@ -1,0 +1,15 @@
+    <link href="https://fonts.googleapis.com/css2?family=Geo&family=Lato&display=swap" rel="stylesheet">  
+
+#pop-quiz p{
+margin-bottom:0;
+}
+
+:root{
+	--family-primary:'Lato', sans-serif;
+    --my-color1:#9c51e0;
+    }
+.bioinfoguru{
+            font-family: 'Geo', sans-serif;
+            color: var(--my-color1);
+            font-size: 125%;
+        }

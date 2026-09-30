@@ -1,0 +1,14 @@
+---
+title: "Index"
+author: "Manish Datt"
+---
+
+::: columns
+::: column
+Start your data science journey with R Book! This book is ideal for beginners to learn coding. R is a modern scripting language that has applications - with emphasis on statistical analysis - in diverse fields.
+
+To learn more about Bioinformatics learning resources, please visit <a href="https://bioinfo.guru" style="text-decoration:none;"><span class="bioinfoguru">bioinfo.guru</span></a>.
+
+For any query or feedback related to R Book, please reach out to the author at manish\@<span class="bioinfoguru">bioinfo.guru</span>.
+:::
+:::
