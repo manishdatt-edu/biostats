@@ -15,7 +15,6 @@ book:
 #  date: "8/1/2023"
   chapters:
     - index.qmd
-    - intro.qmd
     - distributions.ipynb
     - regression.ipynb
     - P-value.ipynb
