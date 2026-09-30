@@ -1,9 +1,0 @@
-# Introduction
-
-R has been the language of choice for statistical analysis. There are plenty of packages developed to facilitate the analysis of data using basic and advanced statistical methods. The intuitive data visualization libraries augment its data analysis capabilities. Over the years multiple packages have been developed to parse and analyze domain-specific data such as time-series data or biological data. The ability to perform statistical analysis combined with the ability to parse biological data substantially flattens the learning curve for biologists to venture into biostatistics or bioinformatics. Modern biology research is highly data intensive making it absolutely imperative for the biologist to learn and apply data science concepts. 
-
-The book aims to equip the reader with essential programming concepts and data analysis skills in R. There are no prerequisites to get started with this book since we\'ll start from the basics and then gradually move to advanced topics. The book provides a hands-on approach i.e. each chapter has code snippets along with their output (as shown below) to help the reader understand the flow and thereby grasp the concepts.
-
-The reader is advised to practice the code when going through the book; merely reading the code is not enough. In fact, the best way to learn coding is by doing coding. 
-
-The book would introduce some of the basics concepts related to programming such as data types, loops, conditional statements in the context of R. This would be followed by discussion on some of the frequently used packages relevant to data science. The book would also introduce some of the niche resources such as Bioconductor and packages therein for the biological data analysis.
