@@ -3,3 +3,4 @@ deploy_key.pub
 /.quarto/
 **/*.quarto_ipynb
 /_book/
+deploy*
