@@ -33,7 +33,6 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.10.18
-          cache: true
 
       - name: Render book
         run: quarto render --no-execute
