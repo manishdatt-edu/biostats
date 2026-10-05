@@ -1,0 +1,9 @@
+---
+title: test
+---
+
+```{r}
+#| label: fig-test
+#| fig-cap: "Example caption"
+plot(1:10)
+```
