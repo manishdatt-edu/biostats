@@ -19,7 +19,6 @@ book:
     - distributions.ipynb
     - regression.ipynb
     - P-value.ipynb
-    - power.ipynb
     - Power_analysis.ipynb
 #    - references.qmd
   page-footer: 
