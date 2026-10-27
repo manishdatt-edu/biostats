@@ -1,0 +1,19 @@
+project:
+  type: book
+  resources:
+    - images/**
+    - CNAME
+
+book:
+  favicon: "images/logo_path_square.svg"
+  title: "Biostatistics"
+  search: false
+  site-url: https://biostats.bioinfo.guru/
+  author: "Manish Datt"
+  chapters:
+    - index.qmd
+    - missing-values.ipynb
+    - distributions.ipynb
+    - regression.ipynb
+    - P-value.ipynb
+    - Power_analysis.ipynb
