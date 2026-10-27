@@ -19,6 +19,7 @@ book:
     - distributions.ipynb
     - regression.ipynb
     - P-value.ipynb
+    - Power_analysis.ipynb
 #    - references.qmd
   page-footer: 
     left: "Copyright 2026, bioinfo.guru"
