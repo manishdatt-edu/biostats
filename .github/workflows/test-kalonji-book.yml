@@ -27,11 +27,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Make Kalonji-Book executable
-        run: chmod +x ./Kalonji-Book
+      - name: Make kalonji-Book executable
+        run: chmod +x ./kalonji-Book
 
       - name: Render book
-        run: ./Kalonji-Book render --book-dir _kalonji_build _quarto.yml --verbose
+        run: ./kalonji-Book render --book-dir _kalonji_build _quarto.yml --verbose
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
