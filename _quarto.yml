@@ -22,15 +22,3 @@ book:
     - Survival.ipynb
     - Power_analysis.ipynb
 #    - references.qmd
-  page-footer: 
-    left: "Copyright 2026, bioinfo.guru"
-    right:
-        - icon: facebook
-          href: www.facebook.com/profile.php?id=100078250833738
-        - icon: instagram
-          href: www.instagram.com/bioinfo.guru/
-        - icon: linkedin
-          href: www.linkedin.com/in/bioinfo-guru-68a8b7231/
-        - icon: twitter
-          href: www.twitter.com/bioinfo_guru
-
