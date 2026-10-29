@@ -31,7 +31,7 @@ jobs:
         run: chmod +x ./Kalonji-Book
 
       - name: Render book
-        run: ./Kalonji-Book render --book-dir _kalonji_build _quarto_kalonji.yml --verbose
+        run: ./Kalonji-Book render --book-dir _kalonji_build _quarto.yml --verbose
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
