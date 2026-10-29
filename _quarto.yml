@@ -19,6 +19,7 @@ book:
     - distributions.ipynb
     - regression.ipynb
     - P-value.ipynb
+    - Survival.ipynb
     - Power_analysis.ipynb
 #    - references.qmd
   page-footer: 
