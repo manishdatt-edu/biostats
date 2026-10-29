@@ -34,17 +34,3 @@ book:
         - icon: twitter
           href: www.twitter.com/bioinfo_guru
 
-#bibliography: references.bib
-  reader-mode: true
-
-format:
-  html:
-    theme: 
-        light: cosmo
-        dark: superhero
-    cover-image: images/logo_path_square.svg
-    highlight-style: atom-one
-    css: custom_css.css
-#  pdf:
-#    documentclass: scrreprt
-
