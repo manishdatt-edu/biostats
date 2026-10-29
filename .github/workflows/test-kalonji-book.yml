@@ -1,13 +1,27 @@
-name: Test Kalonji book render
+name: Publish Kalonji book
 
 on:
+  push:
+    paths:
+      - deploy.txt
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  render:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -19,10 +33,14 @@ jobs:
       - name: Render book
         run: ./Kalonji-Book render --book-dir _kalonji_build _quarto_kalonji.yml --verbose
 
-      - name: Upload rendered site for inspection
-        uses: actions/upload-artifact@v7
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: kalonji-book-site
           path: _kalonji_build/_site
-          if-no-files-found: error
-          retention-days: 14
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
