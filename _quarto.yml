@@ -15,10 +15,10 @@ book:
 #  date: "8/1/2023"
   chapters:
     - index.qmd
-    - missing-values.ipynb
+#    - missing-values.ipynb
     - distributions.ipynb
     - regression.ipynb
-    - P-value.ipynb
+    - Hypothesis_testing.ipynb
     - Survival.ipynb
     - Power_analysis.ipynb
 #    - references.qmd
