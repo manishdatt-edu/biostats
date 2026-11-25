@@ -1,0 +1,21 @@
+image: python:3.12-slim
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  before_script:
+    - apt-get update
+    - apt-get install --yes --no-install-recommends ca-certificates curl
+    - curl --fail --location --silent --show-error "https://github.com/quarto-dev/quarto/releases/download/v1.10.18/quarto-1.10.18-linux-amd64.deb" --output /tmp/quarto.deb
+    - apt-get install --yes /tmp/quarto.deb
+    - python -m pip install --no-cache-dir jupyter
+  script:
+    - quarto render _quarto.yml --no-execute
+    - mkdir -p public
+    - cp -a _book/. public/
+  pages:
+    publish: public
